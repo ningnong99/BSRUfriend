@@ -206,7 +206,7 @@ public class SignUpActivity extends AppCompatActivity {
                     passString,
                     nameImageString,
                     Integer.toString(anInt));
-            addValueToUser.execute("http://swiftcodingthai.com/bsru/add_ningnong.php");
+            addValueToUser.execute("http://swiftcodingthai.com/bsru/add_master.php");
             String s = addValueToUser.get();
             Log.d(tag, "Result ==> " + s);
 
