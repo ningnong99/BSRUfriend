@@ -13,7 +13,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/user"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -48,7 +48,9 @@
 
         <activity
             android:name=".ServiceActivity"
-            android:label="@string/title_activity_service"></activity>
+            android:label="@string/title_activity_service" />
+        <activity android:name=".ListFriend" />
+        <activity android:name=".DetailFriend"></activity>
     </application>
 
 </manifest>

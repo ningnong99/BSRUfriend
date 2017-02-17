@@ -1,4 +1,4 @@
-package  bsru.junpukdee.sutin.bsrufriend;
+package bsru.junpukdee.sutin.bsrufriend;
 
 import android.content.Intent;
 import android.os.Bundle;
